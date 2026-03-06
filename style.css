@@ -1,0 +1,1497 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* for top banner */
+nav div img {
+    width: 80px;
+    height: 70px;
+    border-radius: 100%;
+    margin: 15px 15px;
+}
+
+.logo-name {
+    font-family: "Playwrite AU QLD", cursive;
+    font-size: 35px;
+    font-weight: bolder;
+    word-spacing: 15px;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgb(33, 2, 76), rgb(4, 47, 177));
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-right: 100px;
+    font-size: 25px;
+}
+
+nav ul li {
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* For hero section */
+.hero {
+    display: flex;
+    color: black;
+    background-image: url("pic.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 350px;
+    z-index: 100;
+    position: relative;
+}
+
+.hero .left {
+    display: flex;
+    width: 430px;
+    height: 180px;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 47px;
+    left: 330px;
+    gap: 10px;
+}
+
+.left .one {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 1.2;
+}
+
+.left .two {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+}
+
+.hero .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 180px;
+    position: absolute;
+    top: 32px;
+    right: 330px;
+    gap: 10px;
+}
+
+.hero .right .one {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 1.2;
+    margin-top: 31px;
+}
+
+.right .two {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+}
+
+.hero .btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hero .btn {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(to right, #945ce7, #3f4cda);
+    color: white;
+    border-radius: 15px;
+    margin-top: 15px;
+    transition: all 0.5s;
+}
+
+.hero .right .btn-container {
+    margin-top: 40px;
+}
+
+.hero .btn:hover {
+    background-image: linear-gradient(to right, rgba(68, 2, 160, 0.904), rgba(9, 21, 199, 0.842));
+    cursor: pointer;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+    background-color: #e4ebf5;
+}
+
+.headings .one {
+    display: flex;
+    font-size: 50px;
+    padding-top: 20px;
+    font-weight: 450;
+}
+
+.headings .two {
+    display: flex;
+    font-size: 50px;
+    font-weight: 450;
+}
+
+.headings .three {
+    display: flex;
+    font-size: 30px;
+    color: gray;
+    padding-top: 15px;
+    font-weight: 450;
+}
+
+.what-i-do {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    background-color: #e4ebf5;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.what-i-do .ido {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    word-spacing: 10px;
+    padding-bottom: 30px;
+}
+
+.what-i-do .wido {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.what-i-do .wido .left {
+    width: 455px;
+    height: 350px;
+    background: #ffffff;
+    border: 3px solid none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.what-i-do .wido .left .one img {
+    width: 120px;
+    height: 120px;
+    display: flex;
+}
+
+.what-i-do .wido .left .two {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 22px;
+}
+
+.what-i-do .wido .left .three {
+    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.what-i-do .wido .middle {
+    width: 455px;
+    height: 350px;
+    background: #ffffff;
+    border: 3px solid none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.what-i-do .wido .middle .one img {
+    width: 120px;
+    height: 120px;
+    display: flex;
+
+}
+
+.what-i-do .wido .middle .two {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.what-i-do .wido .middle .three {
+    font-size: 18px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.what-i-do .wido .right {
+    width: 455px;
+    height: 350px;
+    background: #ffffff;
+    border: 3px solid none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.what-i-do .wido .right .one img {
+    width: 120px;
+    height: 120px;
+    display: flex;
+}
+
+.what-i-do .wido .right .two {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.what-i-do .wido .right .three {
+    font-size: 18px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.what-i-do .wido .left:hover,
+.what-i-do .wido .middle:hover,
+.what-i-do .wido .right:hover {
+    background-color: rgb(232, 233, 235);
+    border: 3px solid black;
+    box-shadow: 25px 25px 200px rgb(180, 160, 228);
+    transform: translateY(-10px);
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    background-color: #e4ebf5;
+    font-family: "Roboto", sans-serif;
+}
+
+.heading .heading-one {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+    word-spacing: 10px;
+    text-decoration: underline;
+    font-family: "Libre Baskerville", serif;
+}
+
+.heading .heading-two {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: gray;
+    padding-top: 15px;
+    font-weight: 450;
+    word-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.project-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.heading-container .project-container .left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 450px;
+    background-color: #e4ebf5;
+    font-family: "Roboto", sans-serif;
+    border: 3px solid none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.project-container .left .one img {
+    display: flex;
+    width: 450px;
+    height: 200px;
+    padding-top: 15px;
+    border-radius: 30px 30px 0 0;
+}
+
+.project-container .left .two {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.project-container .left .three {
+    font-size: 18px;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.heading-container .project-container .right {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 450px;
+    background-color: #e4ebf5;
+    font-family: "Roboto", sans-serif;
+    border: 3px solid none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.project-container .right .one img {
+    display: flex;
+    width: 450px;
+    height: 200px;
+    border-radius: 30px 30px 0 0;
+    padding-top: 15px;
+}
+
+.project-container .right .two {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-container .right .three {
+    font-size: 18px;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.project-container .left .btn-container,
+.project-container .right .btn-container {
+    display: flex;
+}
+
+.project-container .left .btn-container .btn {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(to right, #945ce7, #3f4cda);
+    color: white;
+    border-radius: 15px;
+    margin-top: 30px;
+    transition: all 0.5s;
+}
+
+.project-container .left:hover {
+    background-color: rgb(232, 233, 235);
+    border: 3px solid black;
+    box-shadow: 25px 25px 200px rgb(180, 160, 228);
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+
+.project-container .left:hover .btn {
+    background-image: linear-gradient(to right, rgba(68, 2, 160, 0.904), rgba(9, 21, 199, 0.842));
+    cursor: pointer;
+}
+
+.project-container .right .btn-container .btn {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(to right, #945ce7, #3f4cda);
+    color: white;
+    border-radius: 15px;
+    margin-top: 30px;
+    transition: all 0.5s;
+}
+
+.project-container .right:hover {
+    background-color: rgb(232, 233, 235);
+    border: 3px solid black;
+    box-shadow: 25px 25px 200px rgb(180, 160, 228);
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+
+.project-container .right:hover .btn {
+    background-image: linear-gradient(to right, rgba(68, 2, 160, 0.904), rgba(9, 21, 199, 0.842));
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    display: gird;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+    background-color: #e4ebf5;
+}
+
+.skills .design,
+.skills .development {
+    border: 3px solid none;
+    background-color: white;
+    width: 350px;
+    list-style-position: inside;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-radius: 20PX;
+}
+
+.details .skills h2 {
+    font-size: 50px;
+}
+
+.details .process h2 {
+    font-size: 50px;
+}
+
+
+.details h3 {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.details ul li {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.details .process h3 {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.details .process p {
+    font-size: 20px;
+}
+
+.details .process {
+    font-size: 20px;
+}
+
+.details .skills-content {
+    display: flex;
+    gap: 50px;
+    margin-top: 15px;
+}
+
+.process .process-content .process-one {
+    display: flex;
+    border: 3px solid none;
+    flex-direction: column;
+    width: 390px;
+    height: 120px;
+    margin-top: 15px;
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.process .process-content .process-two {
+    display: flex;
+    border: 3px solid none;
+    flex-direction: column;
+    width: 390px;
+    height: 120px;
+    margin-top: 15px;
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.skills .design:hover,
+.skills .development:hover {
+    background-color: rgb(232, 233, 235);
+    border: 3px solid black;
+    box-shadow: 25px 25px 200px rgb(180, 160, 228);
+    transform: translateY(-20px);
+}
+
+.process .process-content .process-one:hover,
+.process .process-content .process-two:hover {
+    background-color: rgb(232, 233, 235);
+    border: 3px solid black;
+    box-shadow: 25px 25px 200px rgb(180, 160, 228);
+    transform: translatex(-20px);
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgb(33, 2, 76), rgb(4, 47, 177));
+    color: white;
+    align-items: center;
+}
+
+.contact-container .project {
+    display: flex;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    word-spacing: 5px;
+}
+
+.contact-container .project-one {
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-container .btn-container {
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #00F2FE, #4FACFE);
+    color: black;
+    font-weight: bolder;
+}
+
+.contact-container .btn-container:hover{
+    background-image: linear-gradient(to right, #1bafe9, #5457e4);
+    cursor: pointer;
+}
+
+/* Responisivness with using media queries */
+
+@media (max-width: 1699px) {
+
+    .hero .left {
+        display: flex;
+        width: 400px;
+        left: 176px;
+    }
+
+    .hero .right {
+        display: flex;
+        width: 350px;
+        right: 89px;
+    }
+
+}
+
+@media (max-width: 1445px) {
+
+    .hero .left {
+        display: flex;
+        width: 405px;
+        left: 48px;
+        font-size: 15px;
+    }
+
+    .hero .right {
+        display: flex;
+        width: 405px;
+        right: 30px;
+        font-size: 15px;
+    }
+
+    .what-i-do .wido .left {
+        width: 340px;
+        height: 325px;
+    }
+
+    .what-i-do .wido .left .two {
+        font-size: 28px;
+    }
+
+    .what-i-do .wido .left .three {
+        font-size: 27px;
+    }
+
+    .what-i-do .wido .middle {
+        width: 340px;
+        height: 325px;
+
+    }
+
+    .what-i-do .wido .middle .two {
+        font-size: 28px;
+    }
+
+    .what-i-do .wido .middle .three {
+        font-size: 27px;
+    }
+
+    .what-i-do .wido .right {
+        width: 340px;
+        height: 325px;
+    }
+
+    .what-i-do .wido .right .two {
+        font-size: 28px;
+    }
+
+    .what-i-do .wido .right .three {
+        font-size: 27px;
+    }
+
+    .skills .design,
+    .skills .development {
+        width: 270px;
+    }
+
+}
+
+@media (max-width: 1075px) {
+
+    nav ul {
+        margin-right: 30px;
+    }
+
+    .hero .left {
+        display: flex;
+        width: 328px;
+        left: 40px;
+        font-size: 15px;
+        top: 54.5px;
+    }
+
+    .hero .right {
+        display: flex;
+        width: 339px;
+        right: 30px;
+        font-size: 15px;
+        top: 37.5px;
+    }
+
+    .what-i-do .wido .left {
+        width: 300px;
+        height: 325px;
+    }
+
+    .what-i-do .wido .left .two {
+        font-size: 24px;
+    }
+
+    .what-i-do .wido .left .three {
+        font-size: 23px;
+    }
+
+    .what-i-do .wido .middle {
+        width: 300px;
+        height: 325px;
+    }
+
+    .what-i-do .wido .middle .two {
+        font-size: 24px;
+    }
+
+    .what-i-do .wido .middle .three {
+        font-size: 23px;
+    }
+
+    .what-i-do .wido .right {
+        width: 300px;
+        height: 325px;
+    }
+
+    .what-i-do .wido .right .two {
+        font-size: 24px;
+    }
+
+    .what-i-do .wido .right .three {
+        font-size: 23px;
+    }
+
+    .heading-container .project-container .left {
+        width: 400px;
+        height: 385px;
+    }
+
+    .heading-container .project-container .right {
+        width: 400px;
+        height: 385px;
+    }
+
+    .project-container .left .three {
+        font-size: 24px;
+    }
+
+    .project-container .right .three {
+        font-size: 24px;
+    }
+
+    .project-container .left .one img {
+        width: 386px;
+        height: 171px;
+    }
+
+    .project-container .right .one img {
+        width: 386px;
+        height: 171px;
+    }
+
+    .skills .design,
+    .skills .development {
+        width: 240px;
+    }
+
+    .details h3 {
+        font-size: 28px;
+    }
+
+    .details ul li {
+        font-size: 22px;
+    }
+
+    .process .process-content .process-one {
+        width: 329px;
+        height: 105px;
+    }
+
+    .process .process-content .process-two {
+        width: 329px;
+        height: 105px;
+    }
+
+    .details .process h3 {
+        font-size: 28px;
+    }
+
+    .details .process p {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 930px) {
+
+    .logo-name {
+        font-size: 30px;
+        word-spacing: 5px;
+    }
+
+    nav div img {
+        width: 75px;
+        height: 65px;
+        margin: 10px;
+    }
+
+    .hero .left {
+        display: flex;
+        width: 305px;
+        left: 23px;
+        font-size: 15px;
+        top: 54.5px;
+    }
+
+    .hero .left .one {
+        font-size: 40px;
+    }
+
+    .hero .left .two {
+        font-size: 23px;
+    }
+
+    .hero .right {
+        display: flex;
+        width: 305px;
+        right: 23px;
+        font-size: 15px;
+        top: 37.5px;
+    }
+
+    .hero .right .one {
+        font-size: 40px;
+    }
+
+    .hero .right .two {
+        font-size: 23px;
+    }
+
+
+    .what-i-do .wido .left {
+        width: 275px;
+        height: 297px;
+    }
+
+    .what-i-do .wido .left .two {
+        font-size: 25px;
+    }
+
+    .what-i-do .wido .left .three {
+        font-size: 22px;
+    }
+
+    .what-i-do .wido .middle {
+        width: 275px;
+        height: 297px;
+    }
+
+    .what-i-do .wido .middle .two {
+        font-size: 25px;
+    }
+
+    .what-i-do .wido .middle .three {
+        font-size: 22px;
+    }
+
+    .what-i-do .wido .right {
+        width: 275px;
+        height: 380px;
+    }
+
+    .what-i-do .wido .right .two {
+        font-size: 25px;
+    }
+
+    .what-i-do .wido .right .three {
+        font-size: 22px;
+    }
+
+    .heading-container .project-container .left {
+        width: 400px;
+        height: 380px;
+    }
+
+    .project-container .left .one img {
+        width: 344px;
+        height: 171px;
+    }
+
+    .heading-container .project-container .right {
+        width: 400px;
+    }
+
+    .project-container .right .one img {
+        width: 344px;
+        height: 171px;
+    }
+
+    .skills .design,
+    .skills .development {
+        width: 210px;
+    }
+
+    .process .process-content .process-one {
+        width: 360px;
+        height: 110px;
+    }
+
+    .process .process-content .process-two {
+        width: 360px;
+        height: 110px;
+    }
+
+    .details h3 {
+        font-size: 25px;
+    }
+
+    .details ul li {
+        font-size: 20px;
+
+    }
+
+    .details .process p {
+        font-size: 20px;
+    }
+
+    .details .process h3 {
+        font-size: 25px;
+    }
+
+    .details .skills-content {
+        gap: 18px;
+    }
+
+}
+
+
+@media (max-width: 950px) {
+
+    .logo-name {
+        font-size: 21px;
+        word-spacing: 5px;
+    }
+
+    nav div img {
+        width: 70px;
+        height: 60px;
+        margin: 10px;
+    }
+
+    nav ul {
+        margin-right: 15px;
+    }
+
+    .hero .left {
+        display: flex;
+        width: 232px;
+        left: 23px;
+        top: 54.5px;
+    }
+
+    .hero .left .one {
+        font-size: 35px;
+    }
+
+    .hero .left .two {
+        font-size: 22px;
+    }
+
+    .hero .right {
+        display: flex;
+        width: 232px;
+        right: 23px;
+        font-size: 15px;
+        top: 37.5px;
+    }
+
+    .hero .right .one {
+        font-size: 35px;
+    }
+
+    .hero .right .two {
+        font-size: 22px;
+    }
+
+    .headings .one {
+        font-size: 38px;
+    }
+
+    .headings .two {
+        font-size: 38px;
+    }
+
+    .headings .three {
+        font-size: 25px;
+    }
+
+    .what-i-do .wido {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+
+    .what-i-do .ido {
+        font-size: 40px;
+    }
+
+    .what-i-do .wido .middle,
+    .what-i-do .wido .left {
+        width: 350px;
+        height: 297px;
+    }
+
+    .what-i-do .wido .right {
+        display: flex;
+        width: 350px;
+        height: 297px;
+    }
+
+    .what-i-do .wido .left .two,
+    .what-i-do .wido .middle .two,
+    .what-i-do .wido .right .two {
+        font-size: 30px;
+    }
+
+    .what-i-do .wido .left .three,
+    .what-i-do .wido .middle .three,
+    .what-i-do .wido .right .three {
+        font-size: 23px;
+    }
+
+
+    .heading-container .project-container .left {
+        width: 400px;
+        height: 380px;
+    }
+
+    .project-container .left .one img {
+        width: 344px;
+        height: 171px;
+    }
+
+    .project-container .left .three {
+        font-size: 21px;
+    }
+
+    .heading-container .project-container .right {
+        width: 400px;
+        height: 380px;
+    }
+
+    .project-container .right .three {
+        font-size: 21px;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .details .skills h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .details h3 {
+        font-size: 30px;
+    }
+
+    .details .process h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .skills .design,
+    .skills .development {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .process .process-content .process-one,
+    .process .process-content .process-two {
+        width: 375px;
+        height: 110px;
+    }
+
+}
+
+@media (max-width: 743px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    nav .logo {
+        display: flex;
+        position: relative;
+    }
+
+    .logo-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    nav div img {
+        width: 70px;
+        height: 60px;
+        margin: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero .left {
+        display: flex;
+        width: 200px;
+        left: 23px;
+        top: 54.5px;
+    }
+
+    .hero .left .one {
+        font-size: 30px;
+    }
+
+    .hero .left .two {
+        font-size: 19px;
+    }
+
+    .hero .right {
+        display: flex;
+        width: 200px;
+        right: 23px;
+        font-size: 15px;
+        top: 37.5px;
+    }
+
+    .hero .right .one {
+        font-size: 30px;
+    }
+
+    .hero .right .two {
+        font-size: 19px;
+    }
+
+    .headings .one {
+        font-size: 30px;
+    }
+
+    .headings .two {
+        font-size: 30px;
+    }
+
+    .headings .three {
+        font-size: 20px;
+    }
+
+    .heading .heading-one {
+        font-size: 35px;
+    }
+
+    .heading .heading-two {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .what-i-do .ido {
+        font-size: 35px;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 629px) {
+
+    .hero .left {
+        display: flex;
+        width: 130px;
+        left: 23px;
+        top: 54.5px;
+    }
+
+    .hero .left .one {
+        font-size: 30px;
+    }
+
+    .hero .left .two {
+        font-size: 17px;
+    }
+
+    .hero .right {
+        display: flex;
+        width: 130px;
+        right: 35px;
+        font-size: 15px;
+        top: 37.5px;
+    }
+
+    .hero .right .one {
+        font-size: 30px;
+    }
+
+    .hero .right .two {
+        font-size: 17px;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .details .skills-content {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px;
+        justify-content: center;
+    }
+
+    .headings .one {
+        font-size: 22px;
+    }
+
+    .headings .two {
+        font-size: 22px;
+
+    }
+
+    .headings .three {
+        font-size: 12px;
+    }
+
+    .heading .heading-one {
+        font-size: 35px;
+    }
+
+    .heading .heading-two {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+}
+
+@media (max-width: 495px) {
+
+    .logo-name {
+        font-size: 23px;
+    }
+
+    nav ul {
+        font-size: 18px;
+    }
+
+    .hero {
+        height: 255px;
+    }
+
+    .hero .left {
+        display: flex;
+        width: 100px;
+        left: 15px;
+        top: 30.5px;
+    }
+
+    .hero .left .one {
+        font-size: 25px;
+
+    }
+
+    .hero .left .two {
+        font-size: 13px;
+    }
+
+    .hero .btn {
+        font-size: 14px;
+        width: 100px;
+        height: 35px;
+    }
+
+    .hero .left .btn {
+        margin-top: 10px;
+    }
+
+    .hero .right .btn {
+        margin: top 0;
+    }
+
+    .hero .right .btn-container {
+        margin-top: 5px;
+    }
+
+
+    .hero .right {
+        display: flex;
+        width: 100px;
+        right: 18px;
+        font-size: 15px;
+        top: 20px;
+    }
+
+    .hero .right .one {
+        font-size: 25px;
+    }
+
+    .hero .right .two {
+        font-size: 13px;
+    }
+
+    .heading-container .project-container .left,
+    .heading-container .project-container .right {
+        width: 300px;
+        height: 380px;
+    }
+
+    .heading-container {
+        display: flex;
+        padding: 0px;
+    }
+
+    .heading .heading-one {
+        font-size: 27px;
+    }
+
+    .heading .heading-two {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .project-container .left .one img,
+    .project-container .right .one img {
+        width: 284px;
+        height: 161px;
+    }
+
+    .project-container .left .two,
+    .project-container .right .two {
+        font-size: 25px;
+    }
+
+    .process .process-content .process-one,
+    .process .process-content .process-two {
+        width: 307px;
+        height: 110px;
+    }
+
+    .details .process p {
+        font-size: 17px;
+    }
+
+    .process .process-content .process-one:hover,
+    .process .process-content .process-two:hover {
+        transform: translateZ(20px);
+    }
+
+}
+
+@media (max-width: 385px) {
+
+    .logo-name {
+        font-size: 22px;
+        left: 45px;
+    }
+
+    nav ul {
+        font-size: 18px;
+        padding-left: 18px;
+    }
+
+    .hero .left {
+        display: flex;
+        width: 100px;
+        left: 10px;
+        top: 10.5px;
+    }
+
+    .hero .left .one {
+        font-size: 20px;
+    }
+
+    .hero .left .two {
+        font-size: 12px;
+    }
+
+    .hero .btn {
+        font-size: 11px;
+        width: 70px;
+        height: 25px;
+    }
+
+    .hero .left .btn {
+        margin-top: 10px;
+    }
+
+    .hero .right .btn {
+        margin: top 0;
+    }
+
+    .hero .right .btn-container {
+        margin-top: 5px;
+    }
+
+    .hero .right {
+        display: flex;
+        width: 100px;
+        right: 1px;
+        font-size: 15px;
+        top: -2px;
+    }
+
+    .hero .right .one {
+        font-size: 20px;
+    }
+
+    .hero .right .two {
+        font-size: 12px;
+    }
+
+    .headings .one {
+        font-size: 20px;
+    }
+
+    .headings .two {
+        font-size: 20px;
+    }
+
+    .headings .three {
+        font-size: 11px;
+    }
+
+    .what-i-do .wido .middle,
+    .what-i-do .wido .left {
+        width: 350px;
+        height: 320px;
+    }
+
+    .what-i-do .wido .right {
+        width: 350px;
+        height: 320px;
+    }
+
+    .what-i-do .wido .left .two,
+    .what-i-do .wido .middle .two,
+    .what-i-do .wido .right .two {
+        font-size: 27px;
+    }
+
+}
